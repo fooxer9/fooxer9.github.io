@@ -1,0 +1,161 @@
+h1,h4{
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-weight: bold;
+}
+h4 {
+    font-size: 48px;
+}
+
+
+
+div {
+    /*min-height: 10em;*/
+    position: relative;
+}
+
+.yellow-back {
+    background: linear-gradient(180deg, rgb(255, 245, 0) , rgb(255, 230, 0));
+    
+}
+.text-field {
+    background-color: white;
+    width: 60%;
+    height: 70%;
+    
+}
+
+.yellow-border {
+    position: absolute;
+    top: 15%;
+    left: 2%;
+    border: 5px dashed rgb(255, 230, 0);
+    border-radius: 20px;
+}
+
+.stick-right  {
+    position: absolute;
+    top: 15%;
+    right:0;
+    border-radius: 20px 0 0 20px;
+}
+.stick-left  {
+    position: absolute;
+    top: 15%;
+    left:0;
+    border-radius: 20px 0 0 20px;
+}
+.stick-right img {
+    margin-right: -5.5em;
+    right: 40%;
+    margin-top: -2em;
+    width: 70%;
+}
+
+.stick-left img {
+    margin-left: 2.5em;
+    right: 40%;
+    margin-top: -2em;
+    width: 65%;
+}
+
+.right-align {
+    text-align: right;
+    line-height: 0.5;
+    margin-left: auto;
+    padding-right: 1em;
+    margin-top: 0.7em;
+}
+
+.left-align {
+    text-align: left;
+    padding-left: 1em;
+    margin-top: 0.7em;
+}
+
+.center-align {
+    text-align: center;
+    left: 10%;
+    margin-top:1px;
+}
+.stick-bottom {
+    border-radius: 20px 20px 0 0;
+    position: absolute;
+    bottom:0;
+    width: 80%;
+}
+
+.hello {
+    height: 500px;
+}
+
+.greeting {
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    font-size: 96px;
+}
+
+.about {
+    height: 580px;
+}
+.about p {
+    margin-left: 2em;
+}
+
+.skills {
+    height:500px;
+
+}
+
+.yellow-table table {
+    border-collapse: collapse;
+    border: 5px solid rgb(255, 230, 0);
+    font-size: 24px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.yellow-table tr td {
+    border-collapse: collapse;
+    border: 5px solid rgb(255, 230, 0);
+    font-size: 24px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    font-size: 24px;
+    line-height: 1.1;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 0.5em; /* Отступ сверху */
+    margin-bottom: 1em
+    
+}
+
+.borderless {
+    padding: 5px;
+    margin-left:auto;
+    margin-right: auto;
+    font-size: 24px;
+    margin-top: -2em;
+    border-collapse: separate;
+    border-spacing: 50px 10px;
+    
+}
+.text-link {
+    font-weight: bold;
+    font-style: oblique;
+    color: black;
+    text-decoration: underline solid  rgb(255, 230, 0);
+}
+.contact-img {
+    width: 100px;
+}
+.temp-warning {
+    position: absolute;
+        top:90%;
+        left:15%;
+        color:#c4c4c4;
+}
